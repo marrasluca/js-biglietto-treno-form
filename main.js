@@ -1,21 +1,15 @@
-//fase di preparazione
-const prezzoBigliettoKm = 0.21
-let km = prompt("Quanti chilometri devo percorrere con il treno?")
-let eta = parseInt( prompt("Quanti anni hai?") )
-let scontoMinorenni = 0.20
-let scontoOver = 0.40
-let prezzoBiglietto
+const btn = document.getElementById('bottone')
 
-//fase di elaborazione
-if( eta < 18 ){
-    prezzoBiglietto = (prezzoBigliettoKm * km) * scontoMinorenni
-}
-if ( eta > 65) {
-    prezzoBiglietto = (prezzoBigliettoKm * km) * scontoOver
-}
-else {
-    (prezzoBigliettoKm * km)
-}
+btn.addEventListener('click', function() {
+    const nome = getElementById('nome').value
+    const eta = getElementById( 'fascia.eta').value
+    const km = getElementById('km').value
 
-//fase di output
-console.log(`il prezzo del tuo biglietto è: ${ prezzoBiglietto.toFixed(2)}`);
+    console.log (nome, eta, km)
+
+    constBigliettoFinale = document.getElementById('biglietto')
+
+    bigliettoFinale.classList.remove('hidden')
+    bigliettoFinale.classList.add('show')
+
+})
