@@ -34,64 +34,54 @@ body{
 
 .dati-input{
     background-color: white;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    justify-content: space-around;
     margin: 0 auto 10 px;
     text-align: center;
     font-size: 16px;
     line-height: 30px;
-    height: 40%;
+    height: 30%;
 }
+
+
 
 .btn {
-    padding: 10px 20px; /* Aumenta il padding per rendere più grandi i bottoni */
-    font-size: 16px; /* Aumenta la dimensione del testo */
-    border-radius: 5px; /* Opzionale, per arrotondare gli angoli */
-    cursor: pointer; /* Mostra un cursore pointer quando ci si passa sopra */
-    background-color: #4CAF50; /* Colore di sfondo */
-    color: white; /* Colore del testo */
-    border: none; /* Rimuove il bordo di default */
-    transition: background-color 0.3s; /* Aggiunge una transizione al colore di sfondo */
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(185, 20, 80);
+    cursor: pointer;
+
 }
 
-.dati-input select {
-    height: 30px;
-}
 
-.row{
-    display: flex;
-    justify-content: space-between;
-}
 
-/* 
+
+
 .dati-input input[type="text"], .dati-input input[type="number"], .dati-input select {
     border: solid 1px rgb(185, 20, 80);
     border-radius: 5px;
-} */
-
-.dati-input select {
-    height: 30px;
 }
 
 
 
-/* .dati-input, .dati-input input, .dati-input select {
-    display: block;
-    margin: 0 auto 10 px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 30px;
-    height: 30px;
-} */
 
-/* .dati-input label, .dati-input input, .dati-input select {
-    display: block;
+
+
+
+.dati-input label, .dati-input input, .dati-input select {
+    display: flex;
     margin: 0 auto;
     text-align: center;
     font-size: 16px;
     line-height: 30px;
     height: 30px;
-} */
+}
 
 #biglietto {
     background-color: white;
@@ -99,6 +89,8 @@ body{
     margin: 0 auto;
     text-align: left;
 }
+
+
 
 
 table {
