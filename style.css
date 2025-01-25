@@ -43,7 +43,18 @@ body{
     height: 30%;
 }
 
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
 
+.btn-row{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
 
 .btn {
     display: inline-block;
@@ -98,5 +109,13 @@ table {
     text-indent: initial;
     box-sizing: border-box;
 }
+
+.dati{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    text-align: center;
+}
+
 
 
